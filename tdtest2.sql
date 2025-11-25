@@ -25,8 +25,6 @@ create table employes (
 );
 
 desc employes;
-
-=
 insert into Departement_21 (code, nom, designation) values ('TI','Technologies','Technologies de L''Informatique');
 insert into Departement_21 (code, nom, designation) values ('GI','Genie ','Genie Informatique');
 
@@ -43,6 +41,6 @@ FROM employes, Departement_21
 where employes.num_dept = Departement_21.code;
 
 /*17*/
-SELECT E.nom, prenom
+SELECT E.nom
 FROM employes E, Departement_21 D
-WHERE E.nu
+WHERE 
