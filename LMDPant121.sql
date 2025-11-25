@@ -90,3 +90,19 @@ and prenom like 'b%'
 and sexe='M'
 and upper(num_dept)='GE'
 and e.num_dept =d.code,
+
+
+/*select count(*) as nb_etudiant from Etudiant_21;
+update Departement_21 set designation='science computer ' where code='TI';
+update Departement_21 set designation='software enginier ' where code='GE';
+select * from Departement_21;
+delete from Departement_21;
+select * from Departement_21;
+delete from Etudiant_21;
+select * from Etudiant_21;
+delete from Departement_211;
+select * from Departement_211;
+delete from Departement_212;
+select * from Departement_212;
+delete from Departement_213;
+select * from Departement_213;*/
